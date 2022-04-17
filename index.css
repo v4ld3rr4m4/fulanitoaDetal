@@ -1,0 +1,70 @@
+:root {
+
+}
+body{
+display: flex;
+flex-direction:column;
+align-items:center;
+width:100%;
+}
+
+.iam{
+display: flex;
+justify-content:center;
+margin-bottom:30px;
+font-size:2em;
+}
+.iam img {width:100px; height:100px;}
+#nav{
+display:flex;
+}
+
+#nav section{
+height:100px;padding:0px;
+}
+ .hero{
+border:dashed 3px gray; height:100px;margin-bottom:10px;
+border-top-right-radius:10px;
+border-left-width:0px; border-bottom-width:0px;
+padding:2px;
+margin:2px;
+transform: rotate(-3deg);
+}
+.hero > div{
+padding: 6px;
+height:90%;
+border: solid 0px gray;
+border-top-right-radius:10px;
+}
+section .title{font-weight:bold; font-size:2em;
+margin:10px;
+}
+.profile{
+background-color:rgba(246, 229, 141,0.6) ;
+}
+.education{
+background-color:rgba(27, 156, 252,1.0);
+}
+.skills{
+background-color:rgba(106, 176, 76,1.0);
+}
+.experience{
+background-color:rgba(240, 147, 43,1.0);
+}
+.contacts{
+background-color:rgba(126, 214, 223,1.0)
+}
+.strengths{
+background-color:rgba(164, 176, 190,1.0);
+}
+.data{
+background-color: #fff;
+margin-top:-5x;
+border:solid 0px gray;
+border-top-width:2px;
+z-index:100;
+width:100%;
+}
+
+
+
